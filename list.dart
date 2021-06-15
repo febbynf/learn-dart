@@ -9,6 +9,20 @@ void main(List<String> arguments) {
   daftarBuah[1] = "Jeruk";
   print(daftarBuah);
 
+  //check type data
   var contohSet =<num>{1,2,3,4.4};
   print(contohSet); 
+
+  var setBuah = <String>{};
+  print(setBuah);
+  
+  Set<String> buahLainnya = {};
+  print(buahLainnya);
+
+  //add 1 item to set
+  var setFruit = <String>{};
+  setFruit.add('apple');
+  setFruit.add('banana');
+  print(setFruit);
+
 }

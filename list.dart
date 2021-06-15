@@ -9,9 +9,6 @@ void main(List<String> arguments) {
   daftarBuah[1] = "Jeruk";
   print(daftarBuah);
 
-  var daftarSayur = List.empty();
-  daftarSayur.add("Bayam");
-  daftarSayur.add("Kangkung");
-
-  print(daftarSayur);
+  var contohSet =<num>{1,2,3,4.4};
+  print(contohSet); 
 }

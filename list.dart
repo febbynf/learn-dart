@@ -25,4 +25,16 @@ void main(List<String> arguments) {
   setFruit.add('banana');
   print(setFruit);
 
+  //add many item to set
+  var setFruits = {'apple', 'banana', 'orange'};
+  
+  var otherFruits = {'watermelon', 'grape'};
+  setFruits.addAll(otherFruits);
+
+  print(setFruits);
+
+  //check length
+  var lengthFruits = {'apple', 'banana', 'orange'};
+  print(lengthFruits.length);
+
 }

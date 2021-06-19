@@ -37,4 +37,33 @@ void main(List<String> arguments) {
   var lengthFruits = {'apple', 'banana', 'orange'};
   print(lengthFruits.length);
 
+  var setBuah1 = {'apple', 'banana', 'orange', 'melon', 'watermelon'};
+
+  setBuah1.remove('melon');
+
+  var setGorengan = {'cireng', 'ubi', 'bakwan', 'risol'};
+
+  //Check whether a single item is in the set
+  print(setGorengan.contains('bakwan'));
+
+  //Check whether multiple items are in the set
+  print(setGorengan.containsAll(['pisang', 'risol'])); //First Method
+
+  var fruitsToCheck = {'bakwan', 'pisang'};
+  print(setGorengan.containsAll(fruitsToCheck));
+
+  var setMakanan = {'bakwan', 'cireng', 'ubi', 'risol'};
+  var setMakananDua = {'cireng', 'cilok', 'batagor'};
+
+  var intersectionSet = setMakanan.intersection(setMakananDua);
+     
+  print(intersectionSet);
+  var setGorenganSatu = {'bakwan', 'cireng', 'ubi', 'risol'};
+  var setGorenganDua = {'cireng', 'cilok', 'batagor'};
+
+  var intersectionSet1 = setGorenganSatu.union(setGorenganDua);
+     
+  print(intersectionSet1);
+
+
 }

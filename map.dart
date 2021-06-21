@@ -1,7 +1,7 @@
 void main() {
   //map and key values
+  
   //literals
-
   var ibuKota = {
     'Indonesia' : 'Jakarta',
     'England' : 'London',
@@ -10,4 +10,23 @@ void main() {
   };
 
   print(ibuKota);
+
+  //constructor
+  var myVariabel = Map();
+  print(myVariabel);
+
+  var angka = Map<int, String>();
+  print(angka);
+
+  //add key value
+  var number = Map<int, String>();
+  number[1] = 'Ini adalah angka satu';
+  number[2] = 'Ini adalah angka dua';
+  number[3] = 'Ini adalah angka tiga';
+
+  print(number);
+
+  print(number.length);
+
+  print(ibuKota['Indonesia']);
 }

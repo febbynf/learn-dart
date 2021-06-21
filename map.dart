@@ -29,4 +29,14 @@ void main() {
   print(number.length);
 
   print(ibuKota['Indonesia']);
+  print(ibuKota.containsKey('Indonesia'));
+
+  var semuaKey = ibuKota.keys;
+  print('data dari key: $semuaKey');
+
+  var semuaValue = ibuKota.values;
+  print('data dari value: $semuaValue');
+
+  ibuKota.remove('Indonesia');
+  print(ibuKota);
 }
